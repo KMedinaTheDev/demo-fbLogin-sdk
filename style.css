@@ -1,0 +1,53 @@
+
+*{
+  color:white;
+  font-family: 'Hammersmith One', sans-serif;
+}
+body{
+  background: url("../background.gif");
+}
+footer{
+  margin: 0 auto;
+
+}
+form{
+  margin: 0 auto;
+
+}
+
+.appName{
+  font-size: 4em;
+  text-shadow: 21px;
+  margin: 0 auto;
+}
+/* container holds form and result */
+.containWrapper{
+  width: 50%;
+  display:block;
+  margin: 0 auto;
+  margin-top: 300px;
+  border: 1px solid black;
+  padding: 0;
+  display:flex;
+  flex-direction: column;
+}
+.fbLogin{
+  height:80px;
+  font-size: 1.5em;
+  margin: 0 auto;
+  background: rgb(77, 10, 232);
+  border-radius: 4px;
+}
+.hidden{
+  display: none;
+}
+.result{
+  margin: 0 auto:
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* h1 for Check You Out */
+.result-heading{
+font-size: 2.5em;
+}
